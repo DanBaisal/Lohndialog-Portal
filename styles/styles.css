@@ -1,0 +1,16 @@
+.text > .background {
+    background-image: url(../images/background.jpg);
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text > .background > .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
